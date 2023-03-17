@@ -3,9 +3,9 @@ const express = require('express');
 const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const app = express();
-const port = 3000;
+      const port = 3000;
 
-const route = require('./routes');
+              const route = require('./routes');
 
 //localhost:3000/public/logoUET.png
 app.use(express.static(path.join(__dirname, 'public')));
